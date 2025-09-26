@@ -74,9 +74,9 @@ export const SlidesSection: React.FC = () => {
         const defaultSlides: Slide[] = [
           {
             id: '1',
-            title: '40 Anos de Fé e Comunhão',
-            description: 'Celebrando quatro décadas de bênçãos, milagres e união em Cristo',
-            image_url: 'https://imgur.com/gallery/catedral-imagens-z0SxNb1#iNThaz9',
+            title: 'A cada do povo de Deus ',
+            description: 'Estamos no centro do bairro de São Miguel Paulista',
+            image_url: '/slides/img01.jpg',
             order_index: 0,
             is_active: true,
             created_at: new Date().toISOString()
@@ -84,7 +84,7 @@ export const SlidesSection: React.FC = () => {
           {
             id: '2',
             title: 'Nossa Comunidade Unida',
-            description: 'Fiéis de todas as idades unidos pela fé no Senhor Santo Cristo dos Milagres',
+            description: 'Aqui nos reunimos em família de Deus',
             image_url: '/slides/img02.jpg',
             order_index: 1,
             is_active: true,
@@ -94,7 +94,7 @@ export const SlidesSection: React.FC = () => {
             id: '3',
             title: 'Tradição e Modernidade',
             description: 'Preservando nossa rica tradição enquanto abraçamos o futuro com esperança',
-            image_url: '/slides/img01.png',
+            image_url: '/slides/img03.png',
             order_index: 2,
             is_active: true,
             created_at: new Date().toISOString()
